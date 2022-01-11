@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,9 +12,20 @@
     <section>
         <h4>Time: <span id="timer"></span></h4>
     </section>
-    <section class="intro"></section>
-    <section class="questions"></section>
-    <section class="inputinitial"></section>
-    <section class="showhighscore"></section>
+    <section class="intro">
+        <h3>Coding Quiz Challenge</h3>
+        <p>small intro</p>
+        <button id="start-quiz">
+            Start Quiz
+        </button>
+    </section>
+    <section class="questions invisible">
+        
+    </section>
+    <section class="inputinitial invisible">
+        enter initial: <input type="text" id="initials"><button id="save">save</button>
+    </section>
+    <section class="showhighscore invisible"></section>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
